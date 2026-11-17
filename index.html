@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Llenya Burger House</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="bar">
+  <a class="logo" href="#home" aria-label="Llenya Burger House, inici">L</a>
+  <span class="brand">Llenya<br>Burger House</span>
+  <nav class="dnav" id="dnav" aria-label="Principal"></nav>
+  <button class="burger" id="open" aria-label="Obre el menú" aria-expanded="false"><span></span></button>
+  <a class="btn" href="#reserva">Reserva</a>
+</div></header>
+
+<div id="menu" role="dialog" aria-modal="true" aria-label="Menú">
+  <div class="in">
+    <div class="top"><a class="logo" href="#home" aria-label="Inici">L</a>
+      <button class="burger" id="close" aria-label="Tanca el menú" style="font-size:28px">✕</button></div>
+    <nav id="mnav"></nav>
+    <div class="social">
+      <a href="#home" aria-label="Instagram">I</a><a href="#home" aria-label="Facebook">F</a><a href="#home" aria-label="X">X</a>
+    </div>
+  </div>
+</div>
+
+<main id="app"></main>
+<footer>Llenya Burger House · Pàgina de demostració</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
